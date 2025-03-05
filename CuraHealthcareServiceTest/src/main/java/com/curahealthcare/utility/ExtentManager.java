@@ -7,7 +7,7 @@ import com.aventstack.extentreports.ExtentTest;
 //import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 /**
- * @author Hitendra: ExtentManager class is used for Extent Report
+ * ExtentManager class is used for Extent Report
  *  
  */
 public class ExtentManager {

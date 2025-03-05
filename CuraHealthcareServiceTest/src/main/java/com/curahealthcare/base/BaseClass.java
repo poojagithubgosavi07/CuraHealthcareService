@@ -95,9 +95,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			//Delete all the cookies
 			//getDriver().manage().deleteAllCookies();
 			//Implicit TimeOuts
-			Action.implicitWait(driver,100); //20 
+			Action.implicitWait(driver,10); //20 
 			//PageLoad TimeOuts
-			Action.pageLoadTimeOut(driver,600); //40 
+			Action.pageLoadTimeOut(driver,10); //40 
 			//Launching the URL
 			//getDriver().get(prop.getProperty("url"));
 			driver.get(prop.getProperty("url"));

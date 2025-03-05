@@ -24,6 +24,8 @@ package com.curahealthcare.actiondriver;
 	import org.openqa.selenium.support.ui.WebDriverWait;
 	import com.curahealthcare.base.BaseClass;
 
+	/*To perform an action such as click, sendkeys, mousehover etc.*/
+	
 	public class Action extends BaseClass {
 
 		public static WebDriver driver;

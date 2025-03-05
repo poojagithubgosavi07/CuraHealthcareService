@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-28T00:34:02 IST" name="Default suite" finished-at="2025-02-28T00:36:04 IST" duration-ms="121764">
+  <suite started-at="2025-03-05T19:31:04 IST" name="Default suite" finished-at="2025-03-05T19:31:33 IST" duration-ms="29896">
     <groups>
     </groups>
-    <test started-at="2025-02-28T00:34:02 IST" name="Default test" finished-at="2025-02-28T00:36:04 IST" duration-ms="121764">
+    <test started-at="2025-03-05T19:31:04 IST" name="Default test" finished-at="2025-03-05T19:31:33 IST" duration-ms="29896">
       <class name="com.curahealthcare.testcases.HomePageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-02-28T00:34:02 IST" name="loadConfig" finished-at="2025-02-28T00:34:02 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-03-05T19:31:04 IST" name="loadConfig" finished-at="2025-03-05T19:31:04 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-02-28T00:34:02 IST" name="setup" finished-at="2025-02-28T00:34:12 IST" depends-on-methods="com.curahealthcare.base.BaseClass.loadConfig" duration-ms="9308" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-03-05T19:31:04 IST" name="setup" finished-at="2025-03-05T19:31:12 IST" depends-on-methods="com.curahealthcare.base.BaseClass.loadConfig" duration-ms="8518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyFacility()[pri:1, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-02-28T00:34:12 IST" name="verifyFacility" finished-at="2025-02-28T00:34:16 IST" duration-ms="4246" status="PASS">
+        <test-method signature="verifyFacility()[pri:1, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-03-05T19:31:12 IST" name="verifyFacility" finished-at="2025-03-05T19:31:17 IST" duration-ms="4262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFacility -->
-        <test-method signature="verifyVisitDate()[pri:2, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-02-28T00:34:16 IST" name="verifyVisitDate" finished-at="2025-02-28T00:35:58 IST" duration-ms="102319" status="FAIL">
+        <test-method signature="verifyVisitDate()[pri:2, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-03-05T19:31:17 IST" name="verifyVisitDate" finished-at="2025-03-05T19:31:29 IST" duration-ms="12309" status="FAIL">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [30dda743df1d1bbf0e54dccd5d29ae0e, actions {actions=[org.openqa.selenium.interactions.Sequence@432f521f, org.openqa.selenium.interactions.Sequence@2d7a9786]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Pooja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63404/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 30dda743df1d1bbf0e54dccd5d29ae0e]]>
+Command: [1df188e8f5953377c2f1f963f2392b41, actions {actions=[org.openqa.selenium.interactions.Sequence@3af7d855, org.openqa.selenium.interactions.Sequence@77049094]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Pooja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50621/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1df188e8f5953377c2f1f963f2392b41]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [30dda743df1d1bbf0e54dccd5d29ae0e, actions {actions=[org.openqa.selenium.interactions.Sequence@432f521f, org.openqa.selenium.interactions.Sequence@2d7a9786]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Pooja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63404/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 30dda743df1d1bbf0e54dccd5d29ae0e
+Command: [1df188e8f5953377c2f1f963f2392b41, actions {actions=[org.openqa.selenium.interactions.Sequence@3af7d855, org.openqa.selenium.interactions.Sequence@77049094]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Pooja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50621/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1df188e8f5953377c2f1f963f2392b41
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
 at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
@@ -114,14 +114,14 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
 ... 60 more
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"textarea[name='comment']"}
-  (Session info: chrome=133.0.6943.142)
+  (Session info: chrome=134.0.6998.35)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.1', revision: '73f5ad48a2'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [30dda743df1d1bbf0e54dccd5d29ae0e, findElement {using=xpath, value=textarea[name='comment']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: C:\Users\Pooja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63404}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63404/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 30dda743df1d1bbf0e54dccd5d29ae0e
+Command: [1df188e8f5953377c2f1f963f2392b41, findElement {using=xpath, value=textarea[name='comment']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.35, chrome: {chromedriverVersion: 134.0.6998.35 (ea6ef4c2ac15..., userDataDir: C:\Users\Pooja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50621/devtoo..., se:cdpVersion: 134.0.6998.35, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1df188e8f5953377c2f1f963f2392b41
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -152,11 +152,11 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyVisitDate -->
-        <test-method signature="verifyBookAppointment()[pri:3, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-02-28T00:35:58 IST" name="verifyBookAppointment" finished-at="2025-02-28T00:36:03 IST" duration-ms="5286" status="PASS">
+        <test-method signature="verifyBookAppointment()[pri:3, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-03-05T19:31:29 IST" name="verifyBookAppointment" finished-at="2025-03-05T19:31:33 IST" duration-ms="4159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBookAppointment -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-02-28T00:36:03 IST" name="afterSuite" finished-at="2025-02-28T00:36:04 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.curahealthcare.testcases.HomePageTest@20bd8be5]" started-at="2025-03-05T19:31:33 IST" name="afterSuite" finished-at="2025-03-05T19:31:33 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
